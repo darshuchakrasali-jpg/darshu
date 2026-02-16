@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GFGC Soraba</title>
+
+<style>
+body{
+text-align:center;
+font-family:Arial;
+background:linear-gradient(120deg,#2193b0,#6dd5ed);
+color:white;
+}
+
+.box{
+background:white;
+color:black;
+margin:30px;
+padding:25px;
+border-radius:15px;
+}
+
+img{
+width:90%;
+border-radius:12px;
+margin:10px;
+}
+
+.logo{
+width:140px;
+vertical-align:middle;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+background:#ff5722;
+border:none;
+color:white;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{background:#c41c00;}
+</style>
+
+<script>
+window.onload = function(){
+	if (sessionStorage.getItem('seenWelcome')){
+		document.getElementById('main').style.display = 'block';
+		return;
+	}
+	alert("Welcome to our college GFGC Soraba");
+	sessionStorage.setItem('seenWelcome','true');
+	document.getElementById('main').style.display = 'block';
+}
+</script>
+
+</head>
+
+<body>
+
+<div id="main" style="display:none;">
+
+<h3>
+<img src="logo1.jpg" alt="logo" width="100" class="logo"><br>
+
+ Kuvempu University
+</h3>
+
+<div class="box">
+
+<h3>Government First Grade College Soraba</h3>
+
+<img src="clgphoto.jpg" 
+
+<h3>Department of CS / BCA</h3>
+	
+
+<a href="bca.html">
+<button>EXPLORE BCA DEPT</button>
+</a>
+</h2></a></b>
+
+
+</div>
+
+</body>
+</html>

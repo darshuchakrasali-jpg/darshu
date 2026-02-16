@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<style>
+body{
+text-align:center;
+font-family:Arial;
+background:linear-gradient(120deg,#ff9966,#ff5e62);
+color:white;
+}
+
+.box{
+background:white;
+color:black;
+margin:30px;
+padding:20px;
+border-radius:15px;
+}
+
+img{
+width:250px;
+border-radius:12px;
+margin:10px;
+}
+
+button{
+padding:12px 25px;
+font-size:16px;
+background:#2196f3;
+border:none;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+button:hover{background:#0b4fa3;}
+
+video{
+width:90%;
+border-radius:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>BCA Department Students</h1>
+
+<div class="box">
+
+<h2>1st Year</h2>
+
+<img src="imge1.jpg"></img>
+  <br>
+
+<h2>2nd Year</h2>
+<img src="imge2.jpg"></img>
+
+<h2>3rd Year</h2>
+<img src="imge3.jpg"></img>
+
+<br><br>
+
+</div>
+
+<div class="box">
+
+<h2>Student Feedback Video</h2>
+
+<video controls>
+<source src="feedbackvideo.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<div style="text-align:center; margin:20px;">
+<a href="Index.html" onclick="sessionStorage.setItem('seenWelcome','true')">
+<button>Back Home</button>
+</a>
+</div>
+
+</body>
+</html>
